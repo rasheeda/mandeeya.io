@@ -1,10 +1,10 @@
-.Features2 {
+.Portfolio {
   // Overflow hidden hides the bottom and left
   // border of columns (which is actually box-shadow).
   overflow: hidden;
 }
 
-.Features2__column {
+.Portfolio__column {
   display: flex;
 
   // Make card stretch to height of column so that
@@ -22,11 +22,11 @@
   box-shadow: 1px 1px 0 0 #efefef;
 }
 
-.Features2__item {
+.Portfolio__item {
   padding: 56px;
 }
 
-.Features2__image {
+.Portfolio__image {
   margin: 0 auto;
   margin-bottom: 30px;
   max-width: 200px;

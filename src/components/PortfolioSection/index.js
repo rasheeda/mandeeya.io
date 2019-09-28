@@ -1,10 +1,10 @@
 import React from "react";
-import Section from "./../Section";
-import SectionHeader from "./../SectionHeader";
-import Features2 from "./../Features2";
+import Section from "../Section";
+import SectionHeader from "../SectionHeader";
+import Portfolio from "../Portfolio";
 import "./styles.scss";
 
-function FeaturesSection2(props) {
+function PortfolioSection(props) {
   return (
     <Section color={props.color} size={props.size}>
       <div className="container">
@@ -14,8 +14,8 @@ function FeaturesSection2(props) {
           centered={true}
           size={3}
         />
-        <div className="FeaturesSection2__box box">
-          <Features2
+        <div className="PortfolioSection__box box">
+          <Portfolio
             columns={2}
             items={[
               {
@@ -23,22 +23,22 @@ function FeaturesSection2(props) {
                 body:
                   "A bulk sms and messaging company I started in 2012, which still runs with over 1800 users in Ghana.",
                 image: "nm.png",
-                tags: ["php", "laravel", ""]
+                tags: ["php", "laravel", "javascript", "html", "css", "sql"]
+              },
+              {
+                title: "Formzhook",
+                body:
+                  "An open source Web and API service for easily posting form data without coding your own backend to handle form submission. ",
+                image:
+                  "https://uploads.divjoy.com/undraw-stability_ball_b4ia.svg",
+                  tags: ["python", "flask", "reactjs", "sql", "scss"]
               },
               {
                 title: "Just Elect",
                 body:
                   "An online voting system",
                 image: "https://www.nasaratech.com/img/screens.png",
-                tags: ["php", "reactjs"]
-              },
-              {
-                title: "Formzhook (in-progress)",
-                body:
-                  "A Web and API service for easily posting form data without coding your own backend to handle form submission. ",
-                image:
-                  "https://uploads.divjoy.com/undraw-stability_ball_b4ia.svg",
-                  tags: ["php", "reactjs"]
+                tags: ["php", "javascript", "sql"]
               },
               {
                 title: "Nasara Mobile API",
@@ -46,7 +46,7 @@ function FeaturesSection2(props) {
                   "An API for the Nasara Mobile web platform",
                 image:
                   "https://rasheedayehuza.com/assets/img/nasaramobile-api-documentation.png",
-                  tags: ["php", "reactjs"]
+                  tags: ["php", "laravel"]
               }
             ]}
           />
@@ -56,4 +56,4 @@ function FeaturesSection2(props) {
   );
 }
 
-export default FeaturesSection2;
+export default PortfolioSection;

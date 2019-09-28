@@ -3,7 +3,7 @@ import Navbar from "./../../components/Navbar";
 import HeroSection from "./../../components/HeroSection";
 import FeaturesRegularLanguagesSection from "../../components/FeaturesRegularLanguagesSection";
 import CtaSection from "./../../components/CtaSection";
-import FeaturesSection2 from "./../../components/FeaturesSection2";
+import PortfolioSection from "../../components/PortfolioSection";
 import Footer from "./../../components/Footer";
 import { useRouter } from "./../../util/router.js";
 import "./styles.scss";
@@ -55,7 +55,7 @@ function HomePage(props) {
         size="medium"
         title="Some videos on Youtube"
       />
-      <FeaturesSection2
+      <PortfolioSection
         color="white"
         size="medium"
         title="Projects"
