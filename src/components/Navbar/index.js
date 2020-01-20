@@ -31,7 +31,7 @@ function Navbar(props) {
               Home
             </Link>
             <a
-              href="https://rashkeed.com"
+              href="/blog"
               target="_blank"
               rel="noreferrer noopener"
               className="navbar-item"
