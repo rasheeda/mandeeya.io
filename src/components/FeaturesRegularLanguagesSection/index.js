@@ -38,6 +38,16 @@ function FeaturesRegularLanguagesSection(props) {
               iconColor: "danger"
             },
             {
+              title: "Javascript",
+              subtitle: (
+                <progress class="progress" value="70" max="100">
+                  70%
+                </progress>
+              ),
+              iconClass: "fab fa-js",
+              iconColor: "dark"
+            },
+            {
               title: "ReactJS",
               subtitle: (
                 <progress class="progress is-success" value="70" max="100">
@@ -58,13 +68,23 @@ function FeaturesRegularLanguagesSection(props) {
               iconColor: "info"
             },
             {
-              title: "Javascript",
+              title: "Docker",
               subtitle: (
-                <progress class="progress" value="70" max="100">
+                <progress class="progress is-danger" value="70" max="100">
+                  50%
+                </progress>
+              ),
+              iconClass: "fab fa-docker",
+              iconColor: "danger"
+            },
+            {
+              title: "Symfony",
+              subtitle: (
+                <progress class="progress is-dark" value="70" max="100">
                   70%
                 </progress>
               ),
-              iconClass: "fab fa-js",
+              iconClass: "fab fa-code",
               iconColor: "dark"
             }
           ]}

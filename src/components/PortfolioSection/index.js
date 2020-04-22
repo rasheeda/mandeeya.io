@@ -19,6 +19,13 @@ function PortfolioSection(props) {
             columns={2}
             items={[
               {
+                title: "hookz.dev",
+                body:
+                  "A free online tool for helping developers test/debug web hooks and other types of HTTP requests.",
+                image: "hookz.dev.png",
+                tags: ["javascript", "nodejs", "expressjs", "reactjs", "sql"]
+              },
+              {
                 title: "Nasara Mobile",
                 body:
                   "A bulk sms and messaging company I started in 2012, which still runs with over 1800 users in Ghana.",
@@ -34,19 +41,12 @@ function PortfolioSection(props) {
                   tags: ["python", "flask", "reactjs", "sql", "scss"]
               },
               {
-                title: "Just Elect",
-                body:
-                  "An online voting system",
-                image: "https://www.nasaratech.com/img/screens.png",
-                tags: ["php", "javascript", "sql"]
-              },
-              {
                 title: "Nasara Mobile API",
                 body:
                   "An API for the Nasara Mobile web platform",
                 image:
-                  "https://rasheedayehuza.com/assets/img/nasaramobile-api-documentation.png",
-                  tags: ["php", "laravel"]
+                  "https://nasaramobile.com/images/nm_api.png",
+                  tags: ["php", "laravel", "sql", "javascript"]
               }
             ]}
           />

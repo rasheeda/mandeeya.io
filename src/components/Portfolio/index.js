@@ -9,7 +9,9 @@ const mapTagColor = {
   python: "is-info",
   sql: "is-danger",
   javascript: "is-info",
-  html: "is-info"
+  html: "is-info",
+  nodejs: "is-black",
+  expressjs: "is-warning"
 };
 
 function Portfolio(props) {
