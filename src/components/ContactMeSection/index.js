@@ -15,7 +15,7 @@ function ContactMeSection(props) {
         />
         <div class="columns is-centered">
           <div className="column is-centered has-text-centered">
-            You can send me an email: <strong>me@mandeeya.io</strong>. Or
+            You can send an email to: <strong>hello@mandeeya.io</strong>. Or
             connect via my social profiles:
           </div>
         </div>
