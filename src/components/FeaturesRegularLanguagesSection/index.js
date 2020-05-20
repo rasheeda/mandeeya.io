@@ -84,9 +84,19 @@ function FeaturesRegularLanguagesSection(props) {
                   70%
                 </progress>
               ),
-              iconClass: "fab fa-code",
+              iconClass: "fab fa-symfony",
               iconColor: "dark"
-            }
+            },
+            {
+              title: "C#",
+              subtitle: (
+                <progress class="progress is-info" value="85" max="100">
+                  85%
+                </progress>
+              ),
+              iconClass: "fab fa-code",
+              iconColor: "info"
+            },
           ]}
         />
       </div>

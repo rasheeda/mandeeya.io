@@ -29,8 +29,6 @@ function HomePage(props) {
         subtitle="I'm a software engineer and I like learning, building things, playfully strumming my guitar and making tech videos which I put up on my youtube channel."
         buttonText="Let's Connect"
         image="me.png"
-        // https://rasheedayehuza.com/assets/img/profile-pic.jpg
-        //https://uploads.divjoy.com/undraw-beer_celebration_cefj.svg
       />
       <FeaturesRegularLanguagesSection
         color="white"
@@ -41,7 +39,7 @@ function HomePage(props) {
       <CtaSection
         color="dark"
         size="medium"
-        title="I like to build new and interesting software. Have anything in mind? Let's create something great together!"
+        title="I like to build new and interesting custom software. Want to bring an idea to life?"
         buttonText="Let's Talk"
       />
       <FeaturesOcassionalLanguagesSection
@@ -59,7 +57,7 @@ function HomePage(props) {
         color="white"
         size="medium"
         title="Projects"
-        subtitle="some projects I can legally share :)"
+        subtitle="some personal projects"
       />
 
       <HrefAnchor name="ContactMe"></HrefAnchor>
