@@ -36,16 +36,6 @@ function FeaturesOccasionalLanguagesSection(props) {
               title: "Laravel",
               iconClass: "fab fa-laravel",
               iconColor: "success"
-            },
-            {
-              title: "SCSS",
-              iconClass: "fab fa-sass",
-              iconColor: "dark"
-            },
-            {
-              title: "Android (JAVA)",
-              iconClass: "fab fa-java",
-              iconColor: "warning"
             }
           ]}
         />

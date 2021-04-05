@@ -18,84 +18,44 @@ function FeaturesRegularLanguagesSection(props) {
         <Features
           items={[
             {
+              title: "Java",
+              iconClass: "fab fa-java",
+              iconColor: "info"
+            },
+            {
+              title: "C#",
+              iconClass: "fab fa-code",
+              iconColor: "info"
+            },
+            {
+              title: "ReactJS",
+              iconClass: "fab fa-react",
+              iconColor: "success"
+            },
+            {
               title: "PHP",
-              subtitle: (
-                <progress class="progress is-info" value="85" max="100">
-                  85%
-                </progress>
-              ),
               iconClass: "fab fa-php",
               iconColor: "info"
             },
             {
               title: "SQL",
-              subtitle: (
-                <progress class="progress is-danger" value="70" max="100">
-                  70%
-                </progress>
-              ),
               iconClass: "fas fa-database",
               iconColor: "danger"
             },
             {
               title: "Javascript",
-              subtitle: (
-                <progress class="progress" value="70" max="100">
-                  70%
-                </progress>
-              ),
               iconClass: "fab fa-js",
               iconColor: "dark"
             },
             {
-              title: "ReactJS",
-              subtitle: (
-                <progress class="progress is-success" value="70" max="100">
-                  70%
-                </progress>
-              ),
-              iconClass: "fab fa-react",
-              iconColor: "success"
-            },
-            {
-              title: "GIT",
-              subtitle: (
-                <progress class="progress is-info" value="70" max="100">
-                  70%
-                </progress>
-              ),
-              iconClass: "fab fa-git",
-              iconColor: "info"
-            },
-            {
               title: "Docker",
-              subtitle: (
-                <progress class="progress is-danger" value="70" max="100">
-                  50%
-                </progress>
-              ),
               iconClass: "fab fa-docker",
               iconColor: "danger"
             },
             {
               title: "Symfony",
-              subtitle: (
-                <progress class="progress is-dark" value="70" max="100">
-                  70%
-                </progress>
-              ),
               iconClass: "fab fa-symfony",
               iconColor: "dark"
-            },
-            {
-              title: "C#",
-              subtitle: (
-                <progress class="progress is-info" value="85" max="100">
-                  85%
-                </progress>
-              ),
-              iconClass: "fab fa-code",
-              iconColor: "info"
             },
           ]}
         />
