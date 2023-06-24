@@ -20,23 +20,38 @@ function FeaturesOccasionalLanguagesSection(props) {
             {
               title: "Python",
               iconClass: "fab fa-python",
-              iconColor: "info"
+              iconColor: "info",
             },
             {
               title: "Flask",
               iconClass: "fas fa-flask",
-              iconColor: "danger"
+              iconColor: "danger",
             },
             {
               title: "Raspberry Pi Tinkering",
               iconClass: "fab fa-raspberry-pi",
-              iconColor: "primary"
+              iconColor: "primary",
             },
             {
               title: "Laravel",
               iconClass: "fab fa-laravel",
-              iconColor: "success"
-            }
+              iconColor: "success",
+            },
+            {
+              title: "Terraform",
+              iconClass: "fab fa-terraform",
+              iconColor: "success",
+            },
+            {
+              title: "AWS",
+              iconClass: "fab fa-aws",
+              iconColor: "success",
+            },
+            {
+              title: "C#",
+              iconClass: "fab fa-code",
+              iconColor: "info",
+            },
           ]}
         />
       </div>

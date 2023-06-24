@@ -9,7 +9,7 @@ function FeaturesRegularLanguagesSection(props) {
     <Section color={props.color} size={props.size}>
       <div className="container">
         <SectionHeader
-          title="Day-to-day"
+          title="Languages/tools I use in my day-to-day"
           centered={true}
           size={4}
           color="primary"
@@ -20,42 +20,42 @@ function FeaturesRegularLanguagesSection(props) {
             {
               title: "Java",
               iconClass: "fab fa-java",
-              iconColor: "info"
-            },
-            {
-              title: "C#",
-              iconClass: "fab fa-code",
-              iconColor: "info"
+              iconColor: "info",
             },
             {
               title: "ReactJS",
               iconClass: "fab fa-react",
-              iconColor: "success"
+              iconColor: "success",
             },
             {
               title: "PHP",
               iconClass: "fab fa-php",
-              iconColor: "info"
+              iconColor: "info",
             },
             {
               title: "SQL",
               iconClass: "fas fa-database",
-              iconColor: "danger"
+              iconColor: "danger",
             },
             {
               title: "Javascript",
               iconClass: "fab fa-js",
-              iconColor: "dark"
+              iconColor: "dark",
             },
             {
               title: "Docker",
               iconClass: "fab fa-docker",
-              iconColor: "danger"
+              iconColor: "danger",
             },
             {
-              title: "Symfony",
-              iconClass: "fab fa-symfony",
-              iconColor: "dark"
+              title: "GraphQL",
+              iconClass: "fab fa-webhook",
+              iconColor: "dark",
+            },
+            {
+              title: "Datadog",
+              iconClass: "fab fa-code",
+              iconColor: "info",
             },
           ]}
         />

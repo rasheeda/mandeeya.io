@@ -20,34 +20,41 @@ function PortfolioSection(props) {
             items={[
               {
                 title: "hookz.dev",
-                body:
-                  "A free online tool for helping developers test/debug web hooks and other types of HTTP requests.",
+                body: "A free online tool for helping developers test/debug web hooks and other types of HTTP requests.",
                 image: "hookz.dev.png",
-                tags: ["javascript", "nodejs", "expressjs", "reactjs", "sql"]
+                tags: [
+                  "java",
+                  "springboot",
+                  "javascript",
+                  "nodejs",
+                  "expressjs",
+                  "reactjs",
+                  "mysql",
+                  "kafka",
+                ],
               },
               {
                 title: "Nasara Mobile",
-                body:
-                  "A bulk sms and messaging company I started in 2012, which still runs with over 1800 users in Ghana.",
+                body: "A bulk sms and messaging company I started in 2012, which still runs with over 1800 users in Ghana.",
                 image: "nm.png",
-                tags: ["php", "laravel", "javascript", "html", "css", "sql"]
+                tags: ["php", "laravel", "javascript", "html", "css", "mysql"],
               },
-              {
-                title: "Formzhook",
-                body:
-                  "An open source Web and API service for easily posting form data without coding your own backend to handle form submission. ",
-                image:
-                  "https://uploads.divjoy.com/undraw-stability_ball_b4ia.svg",
-                  tags: ["python", "flask", "reactjs", "sql", "scss"]
-              },
-              {
-                title: "Nasara Mobile API",
-                body:
-                  "An API for the Nasara Mobile web platform",
-                image:
-                  "https://nasaramobile.com/images/nm_api.png",
-                  tags: ["php", "laravel", "sql", "javascript"]
-              }
+              // {
+              //   title: "Formzhook",
+              //   body:
+              //     "An open source Web and API service for easily posting form data without coding your own backend to handle form submission. ",
+              //   image:
+              //     "https://uploads.divjoy.com/undraw-stability_ball_b4ia.svg",
+              //     tags: ["python", "flask", "reactjs", "sql", "scss"]
+              // },
+              // {
+              //   title: "Nasara Mobile API",
+              //   body:
+              //     "An API for the Nasara Mobile web platform",
+              //   image:
+              //     "https://nasaramobile.com/images/nm_api.png",
+              //     tags: ["php", "laravel", "sql", "javascript"]
+              // }
             ]}
           />
         </div>

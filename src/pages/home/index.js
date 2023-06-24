@@ -8,7 +8,6 @@ import Footer from "./../../components/Footer";
 import { useRouter } from "./../../util/router.js";
 import "./styles.scss";
 import FeaturesOcassionalLanguagesSection from "../../components/FeaturesOcassionalLanguagesSection";
-import RecentYoutubeVideosSection from "../../components/RecentYoutubeVideosSection";
 import ContactMeSection from "../../components/ContactMeSection";
 import HrefAnchor from "../../util/hrefanchor";
 
@@ -47,11 +46,6 @@ function HomePage(props) {
         size="small"
         title="Ocassional technologies"
         subtitle=""
-      />
-      <RecentYoutubeVideosSection
-        color="dark"
-        size="medium"
-        title="Some videos on Youtube"
       />
       <PortfolioSection
         color="white"

@@ -9,7 +9,9 @@ function Footer(props) {
       <div className="FooterComponent__container container">
         <div className="brand left">
           <Link to="/">
-          <p className="logoText">mandeeya<span className="logoTextIO">.io</span></p>
+            <p className="logoText">
+              mandeeya<span className="logoTextIO">.io</span>
+            </p>
           </Link>
         </div>
         <div className="social right">
@@ -32,7 +34,7 @@ function Footer(props) {
             </span>
           </a>
           <a
-            href="https://twitter.com/rasheedayehuza"
+            href="https://twitter.com/rmandeeya"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -40,20 +42,12 @@ function Footer(props) {
               <i className="fab fa-twitter" />
             </span>
           </a>
-          <a
-            href="https://facebook.com/yehuza"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="#" target="_blank" rel="noopener noreferrer">
             <span className="icon">
               <i className="fab fa-facebook-f" />
             </span>
           </a>
-          <a
-            href="https://instagram.com/rashkeed"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="#" target="_blank" rel="noopener noreferrer">
             <span className="icon">
               <i className="fab fa-instagram" />
             </span>
